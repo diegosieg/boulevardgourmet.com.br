@@ -24,11 +24,11 @@ body {
 }
 
 /* Custom page main photos */
-.box-photo {
-    margin-bottom: 40px;
-    height: 180px;
-    border: 12px solid #fbfbfb;
-}
+// .box-photo {
+//     margin-bottom: 40px;
+//     height: 180px;
+//     border: 12px solid #fbfbfb;
+// }
 
 /* Custom page footer */
 .footer {
@@ -37,9 +37,6 @@ body {
     border-top: 1px solid #e5e5e5;
 }
 
-.container-narrow > hr {
-    margin: 30px 0;
-}
 
 
 
@@ -213,6 +210,9 @@ body {
 
     .side,
     .main {
+        margin-top: 30px;
+    }
+    .logo {
         margin-top: 30px;
     }
 }
