@@ -24,7 +24,14 @@
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=229263373814235";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
 
         <div class="container">
             <div class="row">
@@ -32,21 +39,23 @@
                     <header class="header">
                         <a href="#"><img src="images/logo.png" alt="logo café boulevard gourmet" class="logo img-responsive"></a>
                     </header>
-                    <nav>
+                    <nav class="box-menu">
                         <ul class="nav">
                             <li class="active"><a href="#">Nossas delícias</a></li>
                             <li><a href="#">Nossa cafeteria</a></li>
                             <li><a href="#">Fale conosco</a></li>
                         </ul>
                     </nav>
-
+                    <div class="box-social">
+                        <div class="fb-like" data-href="https://www.facebook.com/pages/Caf%C3%A9-Boulevard-Gourmet/152069031505119" data-width="100px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                    </div>
                 </div>
 
                 <div class="main col-md-9">
                     <div class="row">
                         <div class="col-md-12">
 
-                            <a href="#">
+                            <a href="#" data-toggle="modal" data-target="#profModal">
                             <div class="col-md-4 ch-grid">
                                 <div class="ch-item ch-img-1">
                                 <div class="ch-info">
@@ -103,6 +112,81 @@
                                 </div>
                             </div>
 
+
+                            <div class="col-md-4 ch-grid">
+                                <div class="ch-item ch-img-7">
+                                <div class="ch-info">
+                                    <h3>Torta de Pinhão</h3>
+                                    <p>fruto típico da cidade</p>
+                                </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 ch-grid">
+                                <div class="ch-item ch-img-8">
+                                <div class="ch-info">
+                                    <h3>Lanche Sírio</h3>
+                                    <p>com peito de frango</p>
+                                </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 ch-grid">
+                                <div class="ch-item ch-img-9">
+                                <div class="ch-info">
+                                    <h3>Strudell</h3>
+                                    <p>de maçã com sorvete</p>
+                                </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 ch-grid">
+                                <div class="ch-item ch-img-10">
+                                <div class="ch-info">
+                                    <h3>Bolo de Chocolate</h3>
+                                    <p>com doce de leite</p>
+                                </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4 ch-grid">
+                                <div class="ch-item ch-img-11">
+                                <div class="ch-info">
+                                    <h3>Torta de Pinhão</h3>
+                                    <p>fruto típico da cidade</p>
+                                </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 ch-grid">
+                                <div class="ch-item ch-img-12">
+                                <div class="ch-info">
+                                    <h3>Lanche Sírio</h3>
+                                    <p>com peito de frango</p>
+                                </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 ch-grid">
+                                <div class="ch-item ch-img-13">
+                                <div class="ch-info">
+                                    <h3>Strudell</h3>
+                                    <p>de maçã com sorvete</p>
+                                </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 ch-grid">
+                                <div class="ch-item ch-img-14">
+                                <div class="ch-info">
+                                    <h3>Bolo de Chocolate</h3>
+                                    <p>com doce de leite</p>
+                                </div>
+                                </div>
+                            </div>
+
+
                         </div>
             </div>
 
@@ -110,17 +194,40 @@
         </div>
 
 
-            <div class="row">
-                <div class="col-md-3">
-                    <footer class="footer">
-                        <p>Rua Djalma Forjaz, 103, loja 15, Shopping Boulevard Gèneve, Vila Capivari, Campos do Jordão - SP</p>
-                        <p>Tel: (12) 3663-6351 </p> <a href="mailto:cyberboulevard@gmail.com">cyberboulevard@gmail.com</a>
-                    </footer>
-                </div>
-            </div>
+
 
         </div>
-        </div>
+            <div class="row">
+                    <footer class="col-md-12 footer">
+                        <img src="images/montain.png" alt="montanhas geladas" class="montain img-responsive">
+                        <div class="container">
+                            <img src="images/brasao.png" alt="Brasão Café Boulevard Gourmet" class="brasao">
+                            <div class="box-contact">
+                                <p>Rua Djalma Forjaz, 103, loja 15, Shopping Boulevard Gèneve, Vila Capivari, Campos do Jordão - SP</p>
+                                <p>Tel: (12) 3663-6351 </p> <a href="mailto:cyberboulevard@gmail.com">cyberboulevard@gmail.com</a>
+                            </div>
+                        </div>
+                    </footer>
+            </div>
+
+<!-- MODAL PHOTOS -->
+
+
+<div class="modal fade" id="profModal" tabindex="-1" role="dialog" aria-labelledby="profModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="profModalLabel">Profiteroles de frutas vermelhas</h4>
+      </div>
+      <div class="modal-body">
+        <img src="images/profiteroles.jpg" alt="profiteroles de frutas vermelhas" class="img-responsive">
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 
         <!-- build:js scripts/vendor.js -->
