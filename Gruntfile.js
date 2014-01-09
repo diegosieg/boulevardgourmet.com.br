@@ -191,18 +191,18 @@ module.exports = function (grunt) {
         },
 
         // Renames files for browser caching purposes
-        // rev: {
-        //     dist: {
-        //         files: {
-        //             src: [
-        //                 '<%= yeoman.dist %>/scripts/{,*/}*.js',
-        //                 '<%= yeoman.dist %>/styles/{,*/}*.css',
-        //                 '<%= yeoman.dist %>/images/{,*/}*.{gif,jpeg,jpg,png,webp}',
-        //                 '<%= yeoman.dist %>/styles/fonts/{,*/}*.*'
-        //             ]
-        //         }
-        //     }
-        // },
+        rev: {
+            dist: {
+                files: {
+                    src: [
+                        '<%= yeoman.dist %>/scripts/{,*/}*.js',
+                        '<%= yeoman.dist %>/styles/{,*/}*.css',
+                        '<%= yeoman.dist %>/images/{,*/}*.{gif,jpeg,jpg,png,webp}',
+                        '<%= yeoman.dist %>/styles/fonts/{,*/}*.*'
+                    ]
+                }
+            }
+        },
 
         // Reads HTML for usemin blocks to enable smart builds that automatically
         // concat, minify and revision files. Creates configurations in memory so
