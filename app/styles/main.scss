@@ -23,9 +23,31 @@ body {
     padding-right: 15px;
 }
 
+.nav li {
+    margin-bottom: 15px;
+}
+
+.nav a {
+    color: #999;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.nav .active {
+    background-color: lighten(rgba(211,30,21, 0.4), 10%);
+    a {
+        color: #272727;
+    }
+}
+
+.nav li a:hover {
+    background: #ccc;
+    color: #272727;
+}
+
 .box-menu {
     margin-top: 50px;
-    margin-bottom: 180px;
+    margin-bottom: 70px;
 }
 
 .box-content {
