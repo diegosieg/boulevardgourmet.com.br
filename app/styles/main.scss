@@ -23,6 +23,17 @@ body {
     padding-right: 15px;
 }
 
+.header {
+    position: relative;
+    .logo {
+        margin: 0 auto;
+    }
+    .box-social {
+        margin-left: 50px;
+        margin-bottom: 40px;
+    }
+}
+
 .nav li {
     margin-bottom: 15px;
 }
@@ -34,7 +45,7 @@ body {
 }
 
 .nav .active {
-    background-color: lighten(rgba(211,30,21, 0.4), 10%);
+    background-color: lighten(rgba(211,30,21, 0.4), 40%);
     a {
         color: #272727;
     }
@@ -81,7 +92,10 @@ body {
         margin-top: 40px;
     }
     .box-contact {
-        margin-top: 47px;
+        margin-top: 67px;
+        a {
+            color: #777;
+        }
     }
 }
 
@@ -185,6 +199,10 @@ body {
     background-image: url(/images/14.jpg);
 }
 
+.ch-img-15 {
+    background-image: url(/images/15.jpg);
+}
+
 .ch-info {
     position: absolute;
     width: 100%;
@@ -251,6 +269,7 @@ body {
 }
 
 .ch-item:hover {
+    cursor: pointer;
     box-shadow:
         inset 0 0 0 110px rgba(211,30,21, 0.4),
         inset 0 0 0 16px rgba(255,255,255,0.8),
@@ -270,7 +289,7 @@ body {
 /* Modal Photos */
 
 .modal-dialog {
-    width: 700px;
+    width: 50%;
 }
 .modal-body {
     background-color: black;
@@ -296,6 +315,7 @@ body {
     .header {
         padding-bottom: 30px;
         border-bottom: 1px solid #e5e5e5;
+        position: fixed;
     }
     /* add margin at the top for visual effect */
 
@@ -305,5 +325,25 @@ body {
     }
     .logo {
         margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .box-content {
+    margin-left: 140px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .box-content {
+    margin-left: 330px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .modal-dialog {
+        width: 80%;
+    }
+    .box-content {
+        margin-left: 60px;
     }
 }
