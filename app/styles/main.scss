@@ -336,7 +336,20 @@ body {
 
 @media screen and (max-width: 990px) {
     .box-content {
-    margin-left: 330px;
+    margin-left: 160px;
+    }
+    .header {
+        .box-menu {
+            margin-bottom: 15px;
+        }
+        .logo {
+            width: 85%;
+        }
+    }
+    .footer {
+        .box-contact {
+            margin-top: 55px;
+        }
     }
 }
 @media screen and (max-width: 767px) {
@@ -345,5 +358,16 @@ body {
     }
     .box-content {
         margin-left: 45px;
+    }
+    .footer {
+        .brasao {
+            margin-right: 15px;
+        }
+        .box-contact {
+            margin-top: 50px;
+            p {
+                font-size: 0.8em;
+            }
+        }
     }
 }
