@@ -21,12 +21,14 @@ body {
 .footer {
     padding-left: 15px;
     padding-right: 15px;
+    z-index: 100;
 }
 
 .header {
     position: relative;
     .logo {
         margin: 0 auto;
+        margin-top: 30px;
     }
     .box-social {
         margin-left: 50px;
@@ -62,7 +64,7 @@ body {
 }
 
 .box-content {
-    margin-left: 70px;
+    margin-left: 350px;
 }
 
 /* Custom page main photos */
@@ -321,7 +323,7 @@ body {
 
     .side,
     .main {
-        margin-top: 30px;
+        margin-top: 20px;
     }
     .logo {
         margin-top: 30px;
@@ -330,20 +332,22 @@ body {
 
 @media screen and (max-width: 1200px) {
     .box-content {
-    margin-left: 120px;
+        margin-left: 320px;
+        padding-left: 80px;
     }
 }
 
 @media screen and (max-width: 990px) {
     .box-content {
-    margin-left: 160px;
+    margin-left: 380px;
     }
     .header {
         .box-menu {
             margin-bottom: 15px;
         }
         .logo {
-            width: 85%;
+            margin: 0 auto;
+            // width: 85%;
         }
     }
     .footer {
@@ -357,7 +361,8 @@ body {
         width: 80%;
     }
     .box-content {
-        margin-left: 45px;
+        margin-left: 0px;
+        padding-left: 50px;
     }
     .footer {
         .brasao {
