@@ -573,10 +573,10 @@ FileETag None
 
   # Media
     ExpiresByType audio/ogg                             "access plus 1 month"
-    ExpiresByType image/gif                             "access plus 1 month"
-    ExpiresByType image/jpeg                            "access plus 1 month"
-    ExpiresByType image/jpg                            "access plus 1 month"
-    ExpiresByType image/png                             "access plus 1 month"
+    ExpiresByType images/gif                             "access plus 1 month"
+    ExpiresByType images/jpeg                            "access plus 1 month"
+    ExpiresByType images/jpg                            "access plus 1 month"
+    ExpiresByType images/png                             "access plus 1 month"
     ExpiresByType video/mp4                             "access plus 1 month"
     ExpiresByType video/ogg                             "access plus 1 month"
     ExpiresByType video/webm                            "access plus 1 month"
