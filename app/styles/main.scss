@@ -63,7 +63,7 @@ body {
     margin-bottom: 70px;
 }
 
-.box-content {
+.box-content, .box-contact-form {
     margin-left: 350px;
 }
 
@@ -331,15 +331,21 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-    .box-content {
+    .box-content, .box-contact-form {
         margin-left: 320px;
         padding-left: 80px;
+    }
+    .box-contact-form {
+        padding-left: 0px;
     }
 }
 
 @media screen and (max-width: 990px) {
     .box-content {
     margin-left: 380px;
+    }
+    .box-contact-form {
+    margin-left: 300px;
     }
     .header {
         .box-menu {
@@ -363,6 +369,9 @@ body {
     .box-content {
         margin-left: 0px;
         padding-left: 50px;
+    }
+    .box-contact-form {
+        margin-left: 0px;
     }
     .footer {
         .brasao {
